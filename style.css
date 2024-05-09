@@ -1,0 +1,474 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:'Lato', sans-serif;
+}
+h1{
+    font-family: 'Kaisei Decol';
+    font-size: 56px;
+    
+}
+/* styling header */
+header{
+background-color: #EDECFF;
+padding: 33px 60px; 
+z-index: 999999;
+position: fixed;
+width:100%;
+}
+
+.header-container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    height: 34.22px;
+    width: auto;
+}
+/* menu */
+.menu-flex ul li {
+    display: inline;
+    margin-left: 20px; 
+    padding-left: 40px;
+}
+
+.menu-flex ul li a {
+
+    color: #333333;
+    text-decoration: none;
+    font-weight: light; 
+    font-size: 16px;
+}
+
+ul li a:hover {
+    color: black;
+    font-weight: bold; 
+}
+.search-flex {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.search {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding: 5px;
+    border-radius: 50%; /* Ensures a circular shape */
+}
+
+.search svg {
+    width: 20px; /* Adjust size of the icon */
+    height: auto;
+    margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.get-articler {
+    background-color: #FBF3EB;
+    width: 151px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.get-articler a {
+    color: black;
+    text-decoration: none;
+    font-weight: light;
+    font-size: 16px;
+    text-align: center;
+}
+/* sec 1 */
+.section1{
+    background-color: #EDECFF;
+    padding: 33px 60px;
+    display: flex;
+    padding-top: 150px;
+    //flex-wrap: wrap;
+}
+p{
+    font-size: 16px;
+    line-height:24px;
+
+}
+.submit-article{
+    border-left: 3px solid black;
+    background-color: #FDD9D3;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 60px;
+}
+.section1-left{
+    flex-grow: 1;
+}
+
+.section1-left-h1 {
+    margin-bottom: 60px; /* Menambahkan jarak di bawah .section1-left-h1 */
+}
+
+
+.section1-p{
+    top: 60px;
+}
+.submit-article a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+.submit-article svg {
+    width: 20px; /* Adjust size of the icon */
+    height: auto;
+    margin-right: 10px; /* Adjust spacing between icon and text */
+}
+.section1-right-flex{
+    display: flex;
+    flex-grow: 1;
+}
+.p1-1 img{
+    width: 195px;
+    height: 460px;
+    border-radius: 24px;
+    object-fit: cover; 
+}
+
+.p1-1 {
+    margin-left: 30px; /* Add space between images */
+}
+
+/* a */
+.tag .fa-at {
+    margin-right: 10px; /* Mengatur jarak antara ikon dan teks */
+}
+
+.tag1 {
+    margin: 0; /* Menghapus margin default dari paragraf */
+}
+
+/* a */
+.tag{
+    display:flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.tag:nth-child(0){
+    margin-top: 15px;
+}
+.tag:nth-child(2){
+    margin-top: 15px;
+}
+.tag:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.tag p{
+    font-size: 8px;
+}
+.fa-solid fa-at{
+    width: 8px;
+    padding: 5px;
+
+}
+
+
+/* sec 2 */
+.container-p2{
+    display:flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: space-between;
+}
+.container-p2 img{
+    width:40px;
+    
+
+}
+.section2{
+    background-color: white;
+    padding: 33px 60px;
+    //flex-wrap: wrap;
+}
+.arrow2{
+    width: 40px; /* Adjust size of the icon */
+    height: auto;
+    color: black;
+}
+.logo-p2-flex{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.p2 img{
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 30px;
+}
+
+.p2 {
+    display:flex;
+}
+
+/* sec 3 */
+.section3{
+    border-top: .5px solid #F1F1F1;
+}
+
+.p2-list ul li {
+    display: inline;
+
+}
+
+.p2-list ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal; 
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.p2-list ul {
+    list-style: none; /* Menghapus default bullet points */
+    padding: 0; /* Menghapus padding default */
+    display: flex; /* Mengubah ul menjadi flex container */
+    justify-content: space-between; /* Menyebarkan elemen li dari kiri ke kanan */
+
+    margin: 30px 60px 30px 60px;
+}
+
+
+/* sec3 */
+.section3-flex{
+    display:flex;
+    justify-content: space-between;
+    margin-right:30px;
+}
+.relative-container{
+    position: relative;
+}
+.relative-container img{
+    height: 618px;
+    width: 600px;
+    border-radius: 32px;
+    object-fit: cover; 
+    margin-right: 30px;
+    margin-left:60px;
+    background-color: black 50%;
+}
+
+/* ngikut relative */
+.absolute-container1{ 
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: translate(50%, 50%);
+    color: black;
+    /* moving to the front */
+    z-index: 9999;
+    display: flex;
+
+}
+
+.featured{
+    background-color: white;
+    width: 77px;
+    height: 28px;
+    border-radius: 8px;
+    padding: 2px 5px 2px;
+
+}
+
+.featured a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+
+}
+.tag3 svg{
+    width: 20px; /* Adjust size of the icon */
+    height: auto;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.absolute-container1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* bottom left */
+.absolute-container2{ 
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    transform: translateX(23%);
+    /* transform: translate(50%, 50%); */
+    color: black;
+    /* moving to the front */
+    z-index: 1;
+}
+.absolute-container2 h2{
+    color: white;
+    font-family: 'Kaisei Decol';
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.absolute-container2 p{
+    color: white;
+    font-size: 16px;
+}
+.section3-left-bottom svg{
+    width: auto; /* Adjust size of the icon */
+    height: 20px;
+    margin-right: 10px;
+    fill: white;
+}
+.section3-left-bottom a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 60px;
+}
+.section3-left-bottom{
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+
+/* posisi kiri */
+.section3-right{
+    margin-right: 30px;
+    margin-bottom:30px;
+}
+.section3-right-1{
+    display:flex;
+}
+.section3-right-1 img {
+    height: 186px;
+    width: 195px;
+    object-fit: cover;  /* Menggantikan overflow: hidden; */
+    margin-right: 30px;
+    /* max-width: 100%; */
+}
+
+.icon-right{
+    align-items: center;
+    display: flex;
+
+}
+.icon-right svg{
+    width: auto; /* Adjust size of the icon */
+    height: 20px;
+    margin-right: 10px;
+    fill: black;
+}
+.icon-right a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.section3-text-right h2{
+    margin-bottom: 16px;
+    font-family: 'Kaisei Decol';
+    line-height: normal;
+    font-size: 24px;
+}
+
+.section3-text-right p{
+    font-family: 'lato';
+    line-height: 24px;
+    font-size:16px;
+    color: #333333;
+
+}
+.section3-text-right{
+    /* width:400px; */
+}
+
+/* sec 4 */
+.section4{
+    margin:30px 60px;
+}
+.container-p2{
+    display:flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: space-between;
+}
+.container-p2 img{
+    width:40px;
+}
+
+/* posisi kanan */
+.section4-right{
+    margin-top:30px;
+}
+.section4-right-1{
+    display:flex;
+}
+.section4-right-1 img {
+    height: 350px;
+    width: 645px;
+    object-fit: cover;  /* Menggantikan overflow: hidden; */
+    margin-right: 30px;
+    border-radius: 32px;
+    /* max-width: 100%; */
+}
+
+.section4-right-1 p {
+    margin-right: 30px;
+}
+
+/* sec5 */
+.section5 {
+    min-height: 166px; /* Menggunakan min-height agar konten dapat diperluas jika diperlukan */
+    width: 100%;
+    background-color: #EDECFF;
+    display: flex; /* Menjadikan container flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.section5 h2 {
+    font-family: 'Kaisei Decol';
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.section5 span {
+    font-family: 'Kaisei Decol';
+    font-size: 32px;
+    text-decoration: underline;
+    color: #656565;
+}
+
+footer{
+    min-height: 166px; /* Menggunakan min-height agar konten dapat diperluas jika diperlukan */
+    width: 100%;
+    background-color: white;
+    display: flex; /* Menjadikan container flexbox */
+    justify-content: space-between; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding:0px 60px 0px 60px;
+}
+
